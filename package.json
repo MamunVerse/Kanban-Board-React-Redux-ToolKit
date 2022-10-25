@@ -1,7 +1,7 @@
 {
   "name": "kanban-board",
   "version": "0.1.0",
-  "homepage": "https://MamunVerse.github.io/Blog-With-React-Redux-Toolkit",
+  "homepage": "https://MamunVerse.github.io/Kanban-Board-React-Redux-ToolKit",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
