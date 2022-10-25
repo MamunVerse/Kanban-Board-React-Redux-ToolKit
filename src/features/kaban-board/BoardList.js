@@ -58,7 +58,6 @@ function BoardList() {
                                 }
                                 className="w-full p-2.5 marker:bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500"
                               >
-                                <option default>Select Status</option>
                                 <option value="Issue">Issue</option>
                                 <option value="Working On">Working On</option>
                                 <option value="For Review">For Review</option>
