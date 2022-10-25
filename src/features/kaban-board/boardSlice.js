@@ -33,14 +33,11 @@ const boardSlice = createSlice({
 
         const { id, name } = action.payload;
 
-        if(name !== 'Select Status'){
-            state.boards = state.boards.map(board => board.id === id ? {
-                ...board,
-                status: name
-            } : board)
-        }else{
-            return;
-        }
+        state.boards = state.boards.map(board => board.id === id ? {
+            ...board,
+            status: name
+        } : board)
+      
     },
     addNew : (state, action) => {
 
