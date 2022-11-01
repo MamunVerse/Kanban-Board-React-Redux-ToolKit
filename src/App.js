@@ -1,15 +1,13 @@
 import React from 'react';
 import Header from './features/header/Header';
-// import BoardList from "./features/kaban-board/BoardList";
-import DragList from './features/test/DragList';
+import BoardList from "./features/kaban-board-update/BoardList";
 
 function App() {
 
   return (
     <>
       <Header/>
-      <DragList/>
-      {/* <BoardList/> */}
+      <BoardList/>
     </>
   );
 }
